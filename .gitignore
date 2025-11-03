@@ -5,7 +5,7 @@
 venv/
 __pycache__/
 
-%% writefile reddit . env
+%% writefile reddit.env
 # Reddit API Credentials ( Template )
 REDDIT_CLIENT_ID =" YOUR_CLIENT_ID_HERE "
 REDDIT_CLIENT_SECRET =" Y OUR_CLIENT_ SECRET_HERE "
