@@ -7,6 +7,11 @@ __pycache__/
 
 %% writefile reddit.env
 # Reddit API Credentials ( Template )
-REDDIT_CLIENT_ID =" YOUR_CLIENT_ID_HERE "
-REDDIT_CLIENT_SECRET =" Y OUR_CLIENT_ SECRET_HERE "
-REDDIT_USER_AGENT =" YOUR_USER_AGENT_HERE "
+client_id=config.get('REDDIT_CLIENT_ID'),
+client_secret=config.get('REDDIT_CLIENT_SECRET'),
+username=config.get('REDDIT_USERNAME'),
+password=config.get('REDDIT_PASSWORD'),
+user_agent=config.get('REDDIT_USER_AGENT')
+
+GITHUB_USERNAME=YOUR_GITHUB_USERNAME
+GITHUB_PAT=YOUR_PERSONAL_ACCESS_TOKEN
