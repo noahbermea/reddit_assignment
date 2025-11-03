@@ -1,7 +1,7 @@
 # #Ignore sensitive environment files
 .env
 #
-# #Ignore Python virtual environmentfolders andcaches
+# #Ignore Python virtual environment folders andcaches
 venv/
 __pycache__/
 
